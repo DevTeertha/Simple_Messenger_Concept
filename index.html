@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Messenger Concept</title>
+    <link rel="stylesheet" href="person.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="ChatStyle.css">
+</head>
+<body>
+  
+   
+    <div class="person1">
+      <div class="reg">
+           <!--Start Registation-->
+        <div class="starting" id="p1">
+            
+             <h1>Please Registation First</h1>
+              <fieldset>
+                 <legend>Username</legend>
+            <input id="person1_input" type="text" placeholder="Enter Your Username">
+              </fieldset>
+              
+            <button onclick="Person1()">Enter</button>
+        </div>
+        <!--End Registation-->
+      </div>
+      
+        <div id="profile1">
+            <div class="name">
+                <img src="Icon/person.png" alt="#">
+                <p id="name1"></p>
+            </div>
+            <div class="msgdiv1">
+                
+            </div>
+            
+            <div class="send1">
+            <fieldset id="input">
+                <textarea id="msgbox1" type="text" placeholder="Write Something" row="10" cols="30"></textarea>
+            <button id="send1">Send</button>
+            </fieldset>
+            </div>
+        </div>   
+    </div>
+    
+    <div class="person2">
+      <div id="reg">
+          <!--Start Registation-->
+        <div class="starting" id="p2">
+           <h1>Please Registation First</h1>
+            <fieldset>
+                 <legend>Username</legend>
+            <input id="person2_input" type="text" placeholder="Enter Your Username">
+              </fieldset>
+            <button onclick="Person2()">Enter</button>
+        </div>
+        <!--End Registation-->
+      </div>
+       
+        <div id="profile2">
+            <div class="name">
+                <img src="Icon/person.png" alt="#">
+                <p id="name2"></p>
+            </div>
+            <div class="msgdiv2"></div>
+            <div class="send2">
+                
+                <fieldset id="input">
+                    <textarea id="msgbox2" type="text" placeholder="Write Something" row="10" cols="30"></textarea>
+            <button id="send2" onmousedown="bleep.play();">Send</button>
+            </fieldset>
+                
+            </div>
+        </div>   
+    </div>
+    
+    <script src="Script.js"> </script>
+    <script src="msg.js"></script>
+</body>
+</html>

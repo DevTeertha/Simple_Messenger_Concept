@@ -1,0 +1,31 @@
+.msg_Div1 , .msg_Div2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.msg_Span1 , .msg_Span2{
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    border-radius: 25px;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+}
+#Send_To , #Send_From{
+    box-shadow: 1px 1px 5px -1px;
+}
+
+.msgdiv1 , .msgdiv2{
+    overflow: auto;
+    position: relative;
+}
+#input input{
+    padding-left: 10px;
+}

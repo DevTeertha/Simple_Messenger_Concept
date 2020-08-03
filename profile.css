@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+}
+#profile1 , #profile2{
+    display: none;
+}
+.name{
+    height: 40px;
+    border-radius: 50px;
+    background-color: blueviolet;
+
+}
+.name img{
+    margin-left: 10px;
+    margin-top: 3px;
+    border-radius: 50%;
+    width: 33px;
+    background-color: white;
+}
+#name1 , #name2{
+    margin: 0;
+    float: right;
+    padding: 10px;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.msgdiv1 , .msgdiv2{
+    width: 100%;
+    height: 440px;
+    background-color: white;
+}
+.send1 , .send2{
+    height: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#input{
+    height: 20px;
+    background-color: aliceblue;
+}
+#msgbox1 , #msgbox2{
+    padding-top: 5px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: aliceblue;
+    height: 20px;
+    width: 245px;
+}
+#input button{
+    position: relative;
+    bottom:  10px;
+    color: white;
+    height: 25px;
+    width: 55px;
+    border-radius: 30px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+#input button:hover{
+    background-color: crimson;
+}
+textarea{
+    resize: none;
+}
